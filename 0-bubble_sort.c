@@ -1,12 +1,12 @@
 #include "sort.h"
 
-void swap_ints(int *a, int *b)
+void swap_ints(int *x, int *y)
 {
 	int tmp;
 
-	tmp = *a;
-	*a = *b;
-	*b = tmp;
+	tmp = *x;
+	*x = *y;
+	*y = tmp;
 }
 
 void bubble_sort(int *array, size_t size)
